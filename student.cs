@@ -6,8 +6,8 @@ namespace app
     {
         public  long Id { get; set; }
         public  string Name { get; set; }
-        public  DateTime age { get; set; }
-        public  string department { get; set; }
+        public  DateTime Joindate { get; set; }
+        public  string Department { get; set; }
+        public string Course{ get; set; }
     }
-
-    
+} 
